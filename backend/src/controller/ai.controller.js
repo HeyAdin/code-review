@@ -1,4 +1,4 @@
-const aiService = require('../services/ai.service')
+// const aiService = require('../services/ai.service')
 
 // module.exports.getResponse = async(req,res)=>{
 //     const prompt = req.query.prompt;
