@@ -13,10 +13,10 @@ import "prismjs/themes/prism-tomorrow.css"
 function App() {
 
   const [code, setCode] = useState(`function sum() {
-                return a + b
-              }`);
+  return a + b
+ }`);
 
-  const [review , setReview] = useState('')
+  const [review, setReview] = useState('')
   // useEffect(() => {
   //   prism.highlightAll()
   // },[review])
@@ -49,8 +49,8 @@ function App() {
           <div className="button" onClick={reviewCode}>Review</div>
         </div>
         <div className="right">
-          <Markdown rehypePlugins={[ rehypeHighlight ]}>
-            
+          <Markdown rehypePlugins={[rehypeHighlight]}>
+
             {review}
           </Markdown>
         </div>
